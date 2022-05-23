@@ -1,4 +1,4 @@
-# REEF merger
+# DUST merger
 
 Combine solidity contract in one source file.
 

@@ -8,3 +8,6 @@ STEPS:
 - Put your contract in `contracts` folder
 - Run `yarn build-contracts`
 - Your combined source code will be at `build` folder
+
+Notes:
+- Live contract built using solidity 0.7.6+commit.7338295f

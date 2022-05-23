@@ -11,3 +11,4 @@ STEPS:
 
 Notes:
 - Live contract built using solidity 0.7.6+commit.7338295f
+- Optimization enabled at 200

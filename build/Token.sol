@@ -23,7 +23,6 @@ abstract contract Context {
     }
 }
 
-// SPDX-License-Identifier: MIT
 /**
  * @dev Interface of the ERC20 standard as defined in the EIP.
  */
@@ -98,7 +97,6 @@ interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint256 value);
 }
 
-// SPDX-License-Identifier: MIT
 /**
  * @dev Wrappers over Solidity's arithmetic operations with added overflow
  * checks.
@@ -310,7 +308,6 @@ library SafeMath {
     }
 }
 
-// SPDX-License-Identifier: MIT
 /**
  * @dev Implementation of the {IERC20} interface.
  *
@@ -611,7 +608,7 @@ contract ERC20 is Context, IERC20 {
 }
 
 contract Token is ERC20 {
-		constructor(uint256 initialBalance) public ERC20("Reef", "REEF") {
+		constructor(uint256 initialBalance) public ERC20("Dust", "DUST") {
 				_mint(msg.sender, initialBalance);
 		}
 }
